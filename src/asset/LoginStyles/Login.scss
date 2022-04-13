@@ -1,0 +1,105 @@
+.loginWrapper {
+    background-image: linear-gradient(106deg, rgb(121, 66, 189), rgb(13, 13, 132) 100%);
+    width: 500px;
+    height: 70vh;
+    border-radius: 10px;
+    margin: {
+        top: 50px;
+        left: 31%
+    };
+    h1 {
+        margin-left: 25%;
+        padding: 25px;
+        font-size: 40px;
+        color: #ffff;
+        width: fit-content;
+    }
+    hr {
+        width: 44%;
+        height: 9px;
+        border: none;
+        background: rgb(215, 25, 25);
+        border-radius: 5px;
+    }
+    .error {
+        font-weight: bolder;
+        color: red;
+    }
+    .submit {
+        border: none;
+        color: white;
+        background-color: rgb(208, 25, 25);
+        width: 30%;
+        padding: 7px;
+        margin: {
+            top: 8%;
+            bottom: 10%;
+        }
+        border-radius: 10px;
+    }
+}
+
+.group {
+    margin-top: 5%;
+    input {
+        border: solid rgb(208, 84, 22);
+        appearance: none;
+        border-radius: 3px;
+        margin: {
+            top: 10px;
+            bottom: 5px;
+        }
+        padding: 12px;
+        width: 250px;
+        outline: none;
+    }
+    input:focus::placeholder {
+        color: transparent;
+    }
+    input::placeholder {
+        color: #222;
+        transition: color 0.3s ease;
+    }
+}
+@media only screen and (max-height: 600px) {
+    .group {
+        margin-top: 0%;
+    }
+    .loginWrapper {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .loginWrapper {
+        margin: {
+            left: 200px
+        };
+    }
+}
+
+
+@media only screen and (max-width: 830px) {
+    .loginWrapper {
+        margin: {
+            left: 18%
+        };
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .loginWrapper {
+        margin: {
+            left: 10px
+        };
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .loginWrapper {
+        margin: {
+            left: 0px;
+        };
+    }
+}
+
