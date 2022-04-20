@@ -32,6 +32,7 @@ function App() {
             name: '',
             email: ''
         })
+        setError('')
     }
 
     return (
